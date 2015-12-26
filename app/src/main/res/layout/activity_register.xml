@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".LoginActivity">
+
+    <include layout="@layout/public_title" />
+
+    <EditText
+        android:id="@+id/et_email_input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_icon_size"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sharp_register_input_bg"
+        android:hint="@string/user_email"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/et_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_icon_size"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sharp_register_input_bg"
+        android:hint="@string/user_pwd"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/et_pwd_again"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_icon_size"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sharp_register_input_bg"
+        android:hint="@string/user_pwd_again"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/et_nicename"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_icon_size"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sharp_register_input_bg"
+        android:hint="@string/user_nickname"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tv_register_start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/normal_icon_size"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sharp_login_start_btn"
+        android:gravity="center"
+        android:text="@string/register_text"
+        android:textColor="@color/register_input_bg" />
+
+
+</LinearLayout>

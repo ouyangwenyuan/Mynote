@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_btn_bg">#40a6fd</color>
+    <color name="login_input_bg">#ededee</color>
+    <color name="register_input_bg">@android:color/white</color>
+    <color name="register_input_stroke">#999999</color>
+</resources>

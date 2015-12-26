@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyNote</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_text">登  录</string>
+    <string name="register_text">注  册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="use_third_login">试用第三方账号登录</string>
+    <string name="user_email">邮  箱</string>
+    <string name="user_pwd">密  码</string>
+    <string name="user_pwd_again">确认密码</string>
+    <string name="user_nickname">昵  称</string>
+</resources>
