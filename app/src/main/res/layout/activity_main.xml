@@ -1,24 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@android:color/white"
-    tools:context=".MainActivity" >
+    android:orientation="vertical">
 
-    <FrameLayout
-        android:id="@android:id/tabcontent"
-        android:layout_width="match_parent"
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1">
 
-    <android.support.v4.app.FragmentTabHost
-        android:id="@android:id/tabhost"
+    </android.support.v4.view.ViewPager>
+
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#f5f5f5" >
-    </android.support.v4.app.FragmentTabHost>
+        android:layout_height="1dp"
+        android:background="@color/login_input_bg" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:orientation="horizontal">
 
+        <RelativeLayout
+            android:id="@+id/ll_tab1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_tab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/tab_2_s" />
+
+            <TextView
+                android:id="@+id/tv_tab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_tab1"
+                android:layout_centerHorizontal="true"
+                android:text="手记" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/iv_add"
+            android:layout_width="@dimen/title_bar_height"
+            android:layout_height="match_parent"
+            android:background="@color/login_btn_bg"
+            android:text="+"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+        <RelativeLayout
+            android:id="@+id/ll_tab2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_tab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/tab_4" />
+
+            <TextView
+                android:id="@+id/tv_tab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_tab2"
+                android:layout_centerHorizontal="true"
+                android:text="我的" />
+
+        </RelativeLayout>
+    </LinearLayout>
 </LinearLayout>

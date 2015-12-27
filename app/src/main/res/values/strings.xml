@@ -9,4 +9,6 @@
     <string name="user_pwd">密  码</string>
     <string name="user_pwd_again">确认密码</string>
     <string name="user_nickname">昵  称</string>
+    <string name="tab_text_1">手记</string>
+    <string name="tab_text_2">我的</string>
 </resources>

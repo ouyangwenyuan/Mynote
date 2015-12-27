@@ -4,4 +4,5 @@
     <color name="login_input_bg">#ededee</color>
     <color name="register_input_bg">@android:color/white</color>
     <color name="register_input_stroke">#999999</color>
+    <color name="divide_line_color">#cccccc</color>
 </resources>
